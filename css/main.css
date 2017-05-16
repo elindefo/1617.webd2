@@ -280,15 +280,19 @@ position: relative;
     height:100%;
     top: 0;
     left: 0;
+    z-index: 1;
 }
 .foto2 {
     position: absolute;
 
     max-width:100%; 
-    height:60%;
-
-    top: 30%;
-    left: 30%;
+    height:240px;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    margin-left: -120px;
+    margin-top: -110px;
+}
 
 }
 .fa-bars {
@@ -298,6 +302,8 @@ position: relative;
     top: 15px;
     left: 30px;
     text-decoration: none;
+    cursor:pointer;
+    z-index: 9999;
 }
 .wit{   
     color:white;

@@ -35,3 +35,16 @@ h1
 h2 
     { color:  hsl( 202, 33.3%, 84%)
 }
+
+#logo_tekst{
+
+    z-index: 5;
+    position: absolute;
+    color:white;
+    top: 50%;
+    left: 50%;
+    font-family: 'Raleway', sans-serif;
+    text-align:center;
+    font-size: 25px;
+    margin-left: -64px;
+}
