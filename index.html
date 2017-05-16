@@ -2,13 +2,13 @@
 <html dir="ltr" lang="nl-be" class="no-js" prefix="og: http://ogp.me/ns#">
   <head>
     <!-- Character encoding -->
-	  <meta charset="UTF-8"> 
-	  <!-- Latest version of rendering engine -->
-	  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta charset="UTF-8">
+	<!-- Latest version of rendering engine -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <!-- Mobile Viewport -->
 	  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!-- Most important SEO tag -->
-    <title>HTML5 | Webdesign II | GDM</title>
+    <title>F-Design</title>
     <!-- Other SEO friendly tags -->	
     <meta name="description" content="Lees hier alles over nieuwe media, html5 en andere ontwikkelingen in webdevelopment en mobile development. De docenten NMD willen graag hun kennis delen met jou!">
     <meta name="keywords" content="HTML5, JavaScript, jQuery, CSS3">
@@ -20,7 +20,7 @@
     <meta property="og:description" content="Lees hier alles over nieuwe media, html5 en andere ontwikkelingen in webdevelopment en mobile development. De docenten NMD willen graag hun kennis delen met jou!">
     <meta property="og:url" content="http://www.gdm.gent/">
     <meta property="og:site_name" content="GDM.GENT">
-    <meta property="og:image" content="assets/images/ahs.png">
+    <meta property="og:image" content="_img/ahs.png">
     <meta property="og:image:width" content="129">
     <meta property="og:image:height" content="129">
     <!-- humans.txt -->
@@ -31,34 +31,235 @@
     <link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com">
     <!-- Icons -->
     <!-- http://realfavicongenerator.net/ -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="assets/icons/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="assets/icons/favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="assets/icons/manifest.json">
-    <link rel="mask-icon" href="assets/icons/safari-pinned-tab.svg" color="#ee9900">
-    <link rel="shortcut icon" href="assets/icons/favicon.ico">
-    <meta name="apple-mobile-web-app-title" content="GDM">
-    <meta name="application-name" content="GDM">
-    <meta name="msapplication-config" content="assets/icons/browserconfig.xml">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicons/manifest.json">
+    <link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="theme-color" content="#ffffff">
     <!-- Stylesheets: Vendors -->
     <link rel="stylesheet" media="all" href="vendor/normalize/normalize.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <!-- Stylesheets: App -->
+    <link rel="stylesheet" media="all" href="css/grid.css">
     <link rel="stylesheet" media="all" href="css/fonts.css">
     <link rel="stylesheet" media="all" href="css/typography.css">
     <link rel="stylesheet" media="all" href="css/main.css">
     <!-- Modernizr: feature detection -->
     <script src="vendor/modernizr/modernizr.min.js"></script>
+ 
   </head>
 
-  <body>
-    <div class="intro">
-      <h1>GDM - HTML5 Template</h1>
-      <p>We educate future talents in Design for Print and Non-Print, Web- and App Development, Audio and Video Production, 2D- and 3D Animations, Printing and Packaging and the whole Management of those workflows!</p>
+<!-- linken aan pagina's -->
+<body>
+
+
+<div class="header">
+  <img class="foto1" src="_img/home.jpg" class="header" />
+  <img class="foto2" src="_img/fdesign.png" class="header" >
+  <span onclick="openNav()"><a class="fa fa-bars" aria-hidden="true"></a></span>
+  
+  <A HREF="#welkom" <i class="fa fa-angle-down wit"></i></A>
+                    
+</div>
+    
+    <span onclick="openNav()"><a class="fa fa-bars" aria-hidden="true"></a></span>
+
+
+<header class="topnav">
+   
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="A-over ons.html" class="btn_overons">Over Ons <br><i class="fa fa-users" aria-hidden="true"></i></a>
+            <a href="A-contact.html" class="btn_contact">Contact <br><i class="fa fa-phone" aria-hidden="true"></i></a>
+            <a href="A-portfolio.html" class="btn_portfolio">Portfolio <br><i class="fa fa-folder-open-o" aria-hidden="true"></i></a>
+            <a href="A-project.html" class="btn_project">Project <br><i class="fa fa-paint-brush" aria-hidden="true"></i></a>
+        </div>
+
+
+<script>
+        /* Open gaan*/
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        /* dicht gaan */
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+</script>
+
+</header>
+        <!-- pijltje met link naar deel van de pagina-->
+        
+        <A NAME="welkom">
+        <br>
+        <div class="sf-grid__wrapper">
+            <div class="sf-grid__container">
+                <div class="sf-grid__row">
+                    <div class="sf-grid__column-1">
+                            <article>
+                                <!-- inhoud -->
+                                </div>
+                                <br>
+                                <p>WELKOM OP ONZE SITE.<br>
+                                <br>
+                                Wij zijn F - Design een grafisch bureau gepassioneerd door design.<br> 
+                                We werken met een klein maar krachtig team aan jouw verlangens.<br>
+                                Of het nu gaat om een logo ontwerp of een geboortekaartje, het plezier van het creëren drijft ons.<br>
+                                <br>
+                                Grafisch ontwerp is voor ons geen job, het is een passie.<br>
+                                <br>
+                                •••<br>
+                                <br>
+                                Neem gerust een kijkje op onze site en aarzel niet om ons te contacteren.<br>
+                                Voor volgende ontwerpen kunnen jullie bij ons terecht
+                                </p>
+                            </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <!-- pijlers -->
+        <div class="sf-grid__wrapper pijlers">
+            <div class="sf-grid__container">
+                <div class="sf-grid__row">
+                    <div class="sf-grid__column-lg-3 ">  
+                        <i class="fa fa-id-card-o" aria-hidden="true" class="V" ></i>
+                        <p>
+                        Visitekaartjes
+                        </p>
+                    </div>
+
+                    <div class="sf-grid__column-lg-3 "> 
+                        <i class="fa fa-map-o" aria-hidden="true" class="F"></i>
+                        <p>
+                        Flyers
+                        </p>
+                    </div>
+                    <div class="sf-grid__column-lg-3 "> 
+                        <img src="_img/logo.png" width="5%" height="5%" class="foto" class="L">
+                        <p>
+                        Logo's
+                        </p>
+                    </div>
+
+                    <div class="sf-grid__column-lg-3 "> 
+                    <i class="fa fa-clone" aria-hidden="true" class="U"></i>
+                        
+                        <p>
+                        Uitnodigingen
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <A HREF="#foto's" <i class="fa fa-angle-down roze"></i></A>
+        <br>
+        <br>
+
+        <!-- pijltje -->     
+        <br>
+        <br>
+        <!-- foto's eerste rij -->
+        <div class="sf-grid__wrapper">
+            <div class="sf-grid__container">
+                <A NAME="foto's">
+                <div class="sf-grid__row">
+                    <div class="sf-grid__column-sm-6"> 
+                         
+                        <!-- links die naar hier verwijst -->       
+                        <img src="_img/neni.jpg" width="75%" >
+                    </div>
+
+                    <div class="sf-grid__column-6">           
+                        <img src="_img/flyer.png" width="70%">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <!-- foto's tweede rij -->
+        <div class="sf-grid__wrapper">
+            <div class="sf-grid__container">
+                <div class="sf-grid__row">
+                    
+                    <div class="sf-grid__column-sm-6">   
+                               
+                    <img src="_img/logo.png" width="30%">
+                    </div>
+                    
+                    <div class="sf-grid__column-sm-6">     
+                        <img src="_img/kaartje.png" width="70%" >
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+
+        <!--social media-->
+
+        <div class="sf-grid__wrapper">
+            <div class="sf-grid__container">
+                <div class="sf-grid__row">
+                    <div class="sf-grid__column-xxsm-12" >
+
+                        
+                        <i class="fa fa-twitter-square" aria-hidden="true"></i></i>&nbsp; &nbsp; 
+                        <i class="fa fa-facebook-square" aria-hidden="true"></i>&nbsp; &nbsp; 
+                        <i class="fa fa-instagram" aria-hidden="true"></i>&nbsp; &nbsp;<br><br> 
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!--footer-->
+        <div class="sf-grid__wrapper footer_roze">
+            <div class="sf-grid__container ">
+                <div class="sf-grid__row">
+                        
+                    <footer>
+                     <div class="sf-grid__column-md-4">
+                         
+                         <article >
+                            <p class="witte_tekst"> ABOUT US<br>
+                            •<br>
+                            F-Design<br>
+                            Vind ons op google maps</p>
+                        </article>
+                    </div>
+            
+                    <div class="sf-grid__column-md-4">
+                        <article >
+                        <p class="witte_tekst"> CONTACT<br>
+                            •<br>
+                            09 386 17 98<br>
+                            info@fdesign.be</p>
+                        </article>
+                    </div>
+        
+                    <div class="sf-grid__column-md-4">
+                        <article >
+                        <p class="witte_tekst"> ADRESS <br>
+                            •<br>
+                            Voorhavenlaan 31,<br>
+                            9000 Gent</p>
+                        </article>
+                    </div>
+                </footer>
+            </div>
+        </div>
     </div>
-    <!-- Scripts: Vendors -->
-      <!-- For example: jQuery, lodash, handlebars, ... -->
-    <!-- Scripts: App -->
-    <script src="js/main.js"></script>
-  </body>
+    <!-- einde footer-->  
+      
+</body>
 </html>
+

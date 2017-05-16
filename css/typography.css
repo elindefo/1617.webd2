@@ -1,15 +1,37 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raley', sans-serif;
   font-size: 16px;
   font-weight: 300;
   font-style: normal;
   line-height: 1.42;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  font-style: normal;
-  line-height: 1.42;
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.keywords {
+    font-family: 'Raleway', sans-serif;
+    text-align:center;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.42;
+}
+p {
+    color: hsl(180, 1.2%, 74%)
+}
+
+h1 
+    { border-bottom: 1px solid hsl( 202, 33.3%, 70%);
+    font-size: 1rem;
+    line-height: 2em;
+    margin-top: 1em;
+
+}
+h2 
+    { color:  hsl( 202, 33.3%, 84%)
 }

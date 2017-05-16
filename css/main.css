@@ -1,28 +1,326 @@
-* {
-  box-sizing: border-box;
+/* Typografie */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body
+{
+    text-align: center;
+    display: block;
+    border-color:white;}
+
+.witte_tekst {
+    color: white; }
+    
+/* Kleuren */
+.colours__colour--a {
+    background-color: hsl(202, 33.3%, 84.1%);}
+.colours__colour--b {
+    background-color: hsl( 57, 78.3%, 72.9%);}
+.colours__colour--c {
+    background-color: hsl(180, 1.2%, 84.1%);}
+.colours__colour--d {
+    background-color: hsl(13, 69%, 77.3%);}
+/* Style the links inside the navigation bar */
+.topnav a {
+    color: white;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 50px 50px;
+    text-decoration: none;
+    font-size: 17px;  }
+    
+.topnav a.btn_home { background-color: hsl(180, 1.2%, 70%);
+                         opacity: 0.5;
+                         height: 8rem;
+                         width: 18rem; }
+
+.topnav a.btn_home:hover { background-color: hsl(180, 1.2%, 70%);
+                                opacity: 1;}
+                                
+.topnav a.btn_overons { background-color: hsl(180, 1.2%, 84.1%);
+                         opacity: 0.5;
+                         height: 8rem;
+                         width: 18rem;  }
+
+.topnav a.btn_overons:hover { background-color: hsl(180, 1.2%, 84.1%);
+                                opacity: 1;}
+
+.topnav a.btn_contact{background-color: hsl(13, 69%, 77.3%);
+                        opacity: 0.5;
+                         height: 8rem;
+                         width: 18rem}
+
+.topnav a.btn_contact:hover { background-color: hsl(13, 69%, 77.3%);
+                             opacity: 1;}
+
+.topnav a.btn_portfolio {background-color: hsl( 202, 33.3%, 84.1%);
+                        opacity: 0.5;
+                         height: 8rem;
+                         width: 18rem}
+
+.topnav a.btn_portfolio:hover { background-color: hsl( 202, 33.3%, 84.1%);
+                                opacity: 1;}
+
+.topnav a.btn_project {background-color: hsl( 57, 78.3%, 72.9%);
+                        opacity: 0.5;
+                         height: 8rem;
+                         width: 18rem}
+
+.topnav a.btn_project:hover { background-color: hsl( 57, 78.3%, 72.9%);
+                             opacity: 1;}
+
+/* 2. COMPONENTS: onderdelen, worden in de algemene lay-out geplaatst */
+
+/* Knoppen  .fa = alles
+andere .fa.... is een aanpassing
+.fa .... hover is het effect*/
+
+.fa {
+    color: hsl( 202, 33.3%, 84.1%);
+    text-align: center;
+    font-size: 6em;
+    border-width: 0 0 .10em;
+    transition:all 360ms ease-in 0.2;
+    }
+
+/* pijltjes */
+.fa-long-arrow-right
+{
+   color: hsl( 202, 33.3%, 84.1%);
+                 font-size: 2.5em; 
 }
-
-html, body {
-  margin: 0;
-  padding: 0;
+.fa-angle-right,
+.fa-angle-down
+                {
+                 color: hsl( 202, 33.3%, 84.1%);
+                 font-size: 2em;
+                }
+.fa-long-arrow-right:hover
+{
+    color: hsl( 202, 33.3%, 90.1%);
+                    font-size: 2.5em;
 }
-
-body {
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  background: rgba(26,35,126 ,1) url('../assets/images/home.jpg') no-repeat center center fixed;
-  background-size: cover;
-
-  color: rgba(232,234,246 ,1);
+.fa-angle-right:hover,
+.fa-angle-down:hover
+                    {
+                    color: hsl( 202, 33.3%, 90.1%);
+                    font-size: 2em;
+                    }
+/* menu */
+.fa-home,
+.fa-users,
+.fa-phone,
+.fa-folder-open-o,
+.fa-paint-brush
+                {
+                color: white;
+                font-size:3em;
+                }
+.fa-home:hover,
+.fa-users:hover,
+.fa-phone:hover,
+.fa-folder-open-o:hover,
+.fa-paint-brush:hover
+{color: white;
+font-size:3em;
 }
+/* algemeen alles pijlers */
+.pijlers
+{ text-align: center; 
+color: hsl(202, 33.3%, 84.1%);}
+/* pijler map */
+.fa-map-o{
+    font-size: 6em;}
+/* pijlers logo */
 
-.intro {
-  width: 90vw;
+.foto{
+        height: 23%;
+        width:23%;
+        margin-right:70px;
+        margin-left:72px;
+     }
+/* pijlers kaart en uitn. */
+.fa-id-card-o,
+.fa-clone,
+{ font-size: 8em;
+    margin: 70px;}
+/* social media */
+.fa-twitter-square,
+.fa-facebook-square,
+.fa-instagram
+                { 
+                font-size: 2em;    
+                color: hsl(13, 69%, 77.3%);
+                border-width: 0 0 .10em;
+                }
+.fa-twitter-square:hover,
+.fa-facebook-square:hover,
+.fa-instagram:hover {
+    font-size: 2em;
+    color: hsl(13, 69%, 77.3%);
+    opacity:0.5;
+    }
+.grijs
+                { 
+                font-size: 2em;    
+                color: hsl(180, 1.2%, 84.1%);
+                border-width: 0 0 .10em;
+                }
+.grijs:hover {
+    font-size: 2em;
+    color: hsl(180, 1.2%, 84.1%);
+    opacity:0.5;
+    }
+.geel
+                { 
+                font-size: 2em;    
+                color: hsl( 57, 78.3%, 72.9%);
+                border-width: 0 0 .10em;
+                }
+.geel:hover {
+    font-size: 2em;
+    color: hsl( 57, 78.3%, 72.9%);
+    opacity:0.5;
+    }
+.blauw
+                { 
+                font-size: 2em;    
+                color: hsl( 202, 33.3%, 84.1%);
+                border-width: 0 0 .10em;
+                }
+.blauw:hover {
+    font-size: 2em;
+    color: hsl( 202, 33.3%, 84.1%);
+    opacity:0.5;
+    }
+/* Lay out voor iconen en effect wanneer je er op tikt*/
+.pijler1 
+        {
+        height: 4rem;
+        width: 2.5rem;  
+        }
+.footer_roze
+{
+width:100%;
+background:  hsl(13, 69%, 77.3%);
+position: relative;
+}
+.footer_grijs
+{
+width:100%;
+background:  hsl(180, 1.2%, 84.1%);
+position: relative;
+}
+.footer_blauw
+{
+width:100%;
+background:  hsl( 202, 33.3%, 84.1%);
+position: relative;
+}
+.footer_geel
+{
+width:100%;
+background:  hsl( 57, 78.3%, 72.9%);
+position: relative;
+}
+.pijlers
+{ text-align: center; }
 
-  padding: 1rem;
-  margin-top: 1rem;
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    transition: 0.3s
+}
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: white;
+}
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+.grijs_vlak{
+    background:  hsl(180, 1.2%, 84.1%);
+    position: relative;
+    width:250px; 
+    height:300px;
+    margin: 0 auto; 
+}
+.foto1 {
+    position: relative;
+    width:100%; 
+    height:100%;
+    top: 0;
+    left: 0;
+}
+.foto2 {
+    position: absolute;
 
-  background: rgba(41,182,246 ,1);
-  color: rgba(1,87,155 ,1);
+    max-width:100%; 
+    height:60%;
+
+    top: 30%;
+    left: 30%;
+
+}
+.fa-bars {
+    color:white;
+    font-size:2em;
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    text-decoration: none;
+}
+.wit{   
+    color:white;
+    font-size:2em;
+    position: absolute;
+    top: 450px;
+    left: 600px;
+    text-decoration: none;
+}
+.wit:hover{   
+    color: white;
+    font-size: 2.5em;
+    top: 450px;
+    left: 600px;
+}
+.roze{   
+    color:hsl(13, 69%, 77.3%);
+    font-size:2em;
+    position: absolute;
+    text-decoration: none;
+}
+.roze:hover{
+    color: hsl(13, 69%, 77.3%);
+    position: absolute;
+    font-size: 2.5em;
 }

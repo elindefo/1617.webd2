@@ -1,0 +1,255 @@
+/* 1. BASE: basisstijlen van de HTML-elementen */
+
+/* Typografie */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+.topnav{
+    font-family: 'Raleway', sans-serif;
+    color: white;   
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.keywords {
+    font-family: 'Raleway', sans-serif;
+}
+p
+{
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5;
+    color: hsl(180, 1.2%, 74%);
+    
+}
+h1 
+    { color:  hsl( 202, 33.3%, 70%);
+    font-size: 1.5em;
+    border-bottom-color: hsl( 202, 33.3%, 70%);
+}
+
+
+
+/* Kleuren */
+.colours__colour--a {
+    background-color: hsl(202, 33.3%, 84.1%);
+    margin-left: 50px;
+}
+.colours__colour--b {
+    background-color: hsl( 57, 78.3%, 72.9%);
+    margin-left: 50px;
+}
+.colours__colour--c {
+    background-color: hsl(180, 1.2%, 84.1%);
+    margin-left: 50px;
+}
+.colours__colour--d {
+    background-color: hsl(13, 69%, 77.3%);
+    margin-left: 50px;
+}
+
+
+/* test ---------------------------------- */
+
+.naam,
+.mail,
+.bericht,
+.verzenden
+ {
+    position: relative;
+    color:hsl(180, 1.2%, 74%);
+    width: 450px;
+    }
+
+ /* rand pijl*/
+.err input{
+    border-color:white;
+    border-width: thin;
+    
+} 
+/* rand pijl*/
+input,
+textarea,
+select{
+    left: 50%;
+    border-color: hsl(180, 1.2%, 80%);
+    border-width: thin;
+    border-style: solid;
+    resize:vertical;
+    
+}
+
+#form-div {
+    left: 50%;
+	width: 450px;
+	position: absolute;
+    margin-top:30px;
+	margin-left: -260px;
+}
+
+/* tekst in kader */
+.feedback-input {
+    left: 50%;
+    font-weight:500;
+    font-size: 16px;
+	line-height: 20px;
+	padding: 13px 13px 13px 52px;
+	margin-bottom: 2px;
+	width:100%; 
+    
+} 
+/*tekentjes formulier*/
+.naam:before {
+    content: "\f007";
+    font-family:FontAwesome, thin;
+    color: hsl( 202, 33.3%, 84.1%);
+    font-size:2em;
+    position:absolute;
+    top:5px;
+    left:10px;
+    }
+
+.mail:before {
+    content: "\f0e0";
+    font-family:FontAwesome, thin;
+    color: hsl( 202, 33.3%, 84.1%);
+    font-size:2em;
+    position:absolute;
+    top:5px;
+    left:10px;}
+
+.bericht:before {
+    content: "\f040";
+    font-family: FontAwesome, thin;
+    color: hsl( 202, 33.3%, 84.1%);
+    font-size:2em;
+    position: absolute;
+    top: 5px;
+    left: 10px;}
+
+
+
+.verzenden:before {
+    content: "\f178";
+    font-family: FontAwesome, thin;
+    color: hsl( 202, 33.3%, 84.1%);
+    font-size:4em;
+    top: 2px;
+    left: 10px;}
+    
+
+
+
+
+/* Hyperlinks */
+a,
+a:visited {
+    color: hsl(180, 1.2%, 74%);
+    text-decoration: none;
+}
+a:hover {
+    color: hsl(180, 1.2%, 74%);
+    text-decoration: underline;
+}
+/* ----------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Lay out voor iconen en effect wanneer je er op tikt*/
+
+
+.foto {
+ height: 14rem;
+    width: 16rem;    
+}
+
+.pijler1 {
+ height: 4rem;
+    width: 2.5rem;
+    margin: 1.5em;   
+}
+
+
+
+
+/* 2. COMPONENTS: onderdelen, worden in de algemene lay-out geplaatst */
+
+.colours__colour {
+    border: .25rem solid #FFF;
+    float: left;
+    height: 5.5rem;
+    width: 5.5rem;
+}
+.colours__colour + .colours__colour {
+    margin-left: 1rem;
+}
+
+.keywords {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.keywords__keyword {
+                    display: inline;
+                    }
+
+.patterns__pattern {
+                    background-color: #EEE;
+                    border: .25rem solid #FFF;
+                    box-shadow: 0 0 1px #000;
+                    float: left;
+                    height: 8.5rem;
+                    width: 8.5rem;
+                    }
+.patterns__pattern + .patterns__pattern {
+                                         margin-left: 1rem;
+                                        }
+
+/* 3. LAYOUT: algemene lay-out */
+
+header.style-tile,
+main.style-tile,
+footer.style-tile {
+                   clear: both;
+                   margin: auto;
+                   max-width: 60rem;
+                  }   
+
+article.style-tile,
+aside.style-tile {
+                   float: left;
+                   width: 29rem;
+                 }
+aside.style-tile {
+                margin-left: 2rem;
+                }
+
+/* Lay out voor iconen en effect wanneer je er op tikt*/
+
+
+.foto 
+    {
+    height: 14rem;
+    width: 16rem;    
+    }
+
+.pijler1            
+        {
+        height: 4rem;
+        width:2.5em;
+        margin: 1.5;
+        }
+
