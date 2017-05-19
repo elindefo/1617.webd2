@@ -1,9 +1,9 @@
 body {
-  font-family: 'Raley', sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  font-style: normal;
-  line-height: 1.42;
+    font-family: 'Raley', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.42;
 }
 
 p,
@@ -14,39 +14,42 @@ h4,
 h5,
 h6,
 .keywords {
-    font-family: 'Raleway', sans-serif;
-    text-align:center;
+    font-family: 'Raleway', sans-serif, thin;
+    text-align: center;
     font-size: 16px;
     font-weight: 500;
     font-style: normal;
     line-height: 1.42;
 }
+
 p {
     color: hsl(180, 1.2%, 74%)
 }
 
-h1 
-    { border-bottom: 1px solid hsl( 202, 33.3%, 70%);
+h1 {
+    border-bottom: 1px solid hsl( 202, 33.3%, 70%);
     font-size: 1rem;
     line-height: 2em;
     margin-top: 1em;
-
-}
-h2 
-    { color:  hsl( 202, 33.3%, 84%)
 }
 
-#logo_tekst{
+h2 {
+    color: hsl( 202, 33.3%, 84%)
+}
 
+#logo_tekst {
     z-index: 5;
     position: absolute;
-    color:white;
+    color: white;
     top: 50%;
     left: 50%;
     font-family: 'Raleway', sans-serif;
-    text-align:center;
+    text-align: center;
     font-size: 30px;
     margin-top: 70px;
     margin-left: -100px;
-    
+}
+
+.namenmidden {
+    padding-left: 5em;
 }
