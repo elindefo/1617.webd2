@@ -6,10 +6,6 @@
         display: block;
         border-color: white;
     }
-
-    .witte_tekst {
-        color: white;
-    }
     /* Kleuren */
 
     .colours__colour--a {
@@ -30,16 +26,17 @@
     /* Style the links inside the navigation bar */
 
     .topnav a {
+        text-decoration: none;
         color: white;
         float: left;
         display: block;
         text-align: center;
         padding: 50px 50px;
-        text-decoration: none;
         font-size: 17px;
     }
 
     .topnav a.btn_home {
+        text-decoration: none;
         background-color: hsl(180, 1.2%, 70%);
         opacity: 0.5;
         height: 8rem;
@@ -110,6 +107,7 @@ andere .fa.... is een aanpassing
         border-width: 0 0 .10em;
         transition: all 360ms ease-in 0.2;
         z-index: 9999;
+        text-decoration: none;
     }
     /* pijltjes */
 
@@ -124,8 +122,7 @@ andere .fa.... is een aanpassing
     }
 
     .fa-angle-right,
-    .fa-angle-down
-    {
+    .fa-angle-down {
         color: hsl( 202, 33.3%, 84%);
         font-size: 2em;
     }
@@ -316,6 +313,7 @@ andere .fa.... is een aanpassing
     .sidenav a:hover,
     .offcanvas a:focus {
         color: white;
+        text-decoration: none;
     }
     /* Position and style the close button (top right corner) */
 
@@ -398,6 +396,7 @@ andere .fa.... is een aanpassing
         font-size: 2.5em;
         top: 450px;
         left: 600px;
+        text-decoration: none;
     }
 
     .roze {
@@ -437,4 +436,129 @@ andere .fa.... is een aanpassing
 
     a {
         text-decoration: none;
+    }
+    /* test ---------------------------------- */
+
+    .naam,
+    .mail,
+    .bericht,
+    .telefoonnummer
+    .verzenden {
+        position: relative;
+        color: hsl(180, 1.2%, 74%);
+        width: 450px;
+    }
+    /* rand pijl*/
+
+    .pijl input {
+        border-color: white;
+        border-width: thin;
+        float: right;
+    }
+    /* rand pijl*/
+
+    input,
+    textarea {
+        left: 50%;
+        border-color: hsl(180, 1.2%, 80%);
+        border-width: thin;
+        border-style: solid;
+        resize: vertical;
+    }
+
+    select {
+        margin-bottom: 20px;
+        line-height: 20px;
+        width: 100%;
+        border-color: hsl(180, 1.2%, 80%);
+        border-width: thin;
+        border-style: solid;
+    }
+
+    #form-div {
+        left: 50%;
+        width: 450px;
+        position: absolute;
+        margin-top: 30px;
+        margin-left: -260px;
+    }
+    /* tekst in kader */
+
+    .feedback-input {
+        line-height: 20px;
+        padding: 13px 13px 13px 52px;
+        margin-bottom: 2px;
+        width: 120%;
+    }
+    /* tekentjes formulier */
+
+    .naam:before {
+        content: "\f007";
+        font-family: FontAwesome;
+        color: hsl( 202, 33.3%, 84.1%);
+        font-size: 2em;
+        position: absolute;
+        top: 5px;
+        left: 10px;
+    }
+
+    .mail:before {
+        content: "\f0e0";
+        font-family: FontAwesome;
+        color: hsl( 202, 33.3%, 84.1%);
+        font-size: 2em;
+        position: absolute;
+        top: 5px;
+        left: 10px;
+    }
+    .telefoonnummer:before {
+        content: "\f095";
+        font-family: FontAwesome ;
+        color: hsl( 202, 33.3%, 84.1%);
+        font-size: 2em;
+        position: absolute;
+        top: 5px;
+        left: 10px;
+    }
+    .bericht:before {
+        content: "\f040";
+        font-family: FontAwesome;
+        color: hsl( 202, 33.3%, 84.1%);
+        font-size: 2em;
+        position: absolute;
+        top: 5px;
+        left: 10px;
+    }
+
+    .verzenden:before {
+        content: "\f178";
+        font-family: FontAwesome;
+        color: hsl( 202, 33.3%, 84.1%);
+        font-size: 4em;
+        top: 2px;
+        left: 10px;
+    }
+    /* 3. LAYOUT: algemene lay-out */
+
+    header.style-tile,
+    main.style-tile,
+    footer.style-tile {
+        clear: both;
+        margin: auto;
+        max-width: 60rem;
+    }
+
+    article.style-tile,
+    aside.style-tile {
+        float: left;
+        width: 29rem;
+    }
+
+    aside.style-tile {
+        margin-left: 2rem;
+    }
+    /* GOOGLE MAP */
+
+    .gmap {
+
     }

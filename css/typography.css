@@ -4,6 +4,7 @@ body {
     font-weight: 300;
     font-style: normal;
     line-height: 1.42;
+    text-decoration: none;
 }
 
 p,
@@ -20,6 +21,7 @@ h6,
     font-weight: 500;
     font-style: normal;
     line-height: 1.42;
+    text-decoration: none;
 }
 
 p {
@@ -53,3 +55,12 @@ h2 {
 .namenmidden {
     padding-left: 5em;
 }
+
+.witte_tekst {
+        color: white;
+    }
+
+.witte_tekst_groot {
+        color: white;
+        font-size: 18px;
+    }
