@@ -457,8 +457,7 @@ andere .fa.... is een aanpassing
     /* rand pijl*/
 
     input,
-    textarea,
-    label {
+    textarea {
         
         border-color: hsl(180, 1.2%, 80%);
         border-width: thin;
@@ -489,7 +488,7 @@ andere .fa.... is een aanpassing
         color: hsl(180, 1.2%, 80%);
         line-height: 20px;
         padding: 13px 13px 13px 52px;
-        margin-bottom: 2px;
+        margin-bottom: 5px;
         width: 120%;
     }
     /* tekentjes formulier */
