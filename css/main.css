@@ -458,7 +458,6 @@ andere .fa.... is een aanpassing
 
     input,
     textarea {
-        
         border-color: hsl(180, 1.2%, 80%);
         border-width: thin;
         border-style: solid;
@@ -473,6 +472,11 @@ andere .fa.... is een aanpassing
         line-height: 20px;
         width: 100%;
         border-color: hsl(180, 1.2%, 80%);
+    }
+
+    .checkbox,
+    .label {
+        color: hsl(13, 69%, 77.3%);
     }
 
     #form-div {
@@ -522,15 +526,6 @@ andere .fa.... is een aanpassing
         top: 5px;
         left: 10px;
     }
-
-    .verzenden:before {
-        content: "\f178";
-        font-family: FontAwesome;
-        color: hsl( 202, 33.3%, 84.1%);
-        font-size: 4em;
-        top: 2px;
-        left: 10px;
-    }
     /* 3. LAYOUT: algemene lay-out */
 
     header.style-tile,
@@ -557,4 +552,33 @@ andere .fa.... is een aanpassing
     .control-group {
         text-align: left;
         margin-left: 170px;
+    }
+
+    .fa-twitter-square,
+    .fa-facebook-square,
+    .fa-instagram {
+        font-size: 2em;
+        color: hsl(13, 69%, 77.3%);
+        border-width: 0 0 .10em;
+    }
+
+    .fa-twitter-square:hover,
+    .fa-facebook-square:hover,
+    .fa-instagram:hover {
+        font-size: 2em;
+        color: hsl(13, 69%, 77.3%);
+        opacity: 0.5;
+    }
+
+    .oo {
+        font-size: 3em;
+        color: hsl(13, 69%, 77.3%);
+        margin-bottom: 20px;
+        margin-left: none;
+    }
+     .oo:hover {
+        font-size: 3em;
+        color: hsl(13, 69%, 77.3%);
+        margin-bottom: 20px;
+        margin-left: none;
     }
