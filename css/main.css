@@ -327,7 +327,7 @@ andere .fa.... is een aanpassing
     /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 
     #main {
-        transition: margin-left .5s;
+        transition: .5s;
         padding: 20px;
     }
     /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
@@ -442,7 +442,6 @@ andere .fa.... is een aanpassing
     .naam,
     .mail,
     .bericht,
-    .telefoonnummer
     .verzenden {
         position: relative;
         color: hsl(180, 1.2%, 74%);
@@ -458,21 +457,23 @@ andere .fa.... is een aanpassing
     /* rand pijl*/
 
     input,
-    textarea {
-        left: 50%;
+    textarea,
+    label {
+        
         border-color: hsl(180, 1.2%, 80%);
         border-width: thin;
         border-style: solid;
         resize: vertical;
+        outline: 0;
     }
 
     select {
+        border-width: thin;
+        border-style: solid;
         margin-bottom: 20px;
         line-height: 20px;
         width: 100%;
         border-color: hsl(180, 1.2%, 80%);
-        border-width: thin;
-        border-style: solid;
     }
 
     #form-div {
@@ -485,6 +486,7 @@ andere .fa.... is een aanpassing
     /* tekst in kader */
 
     .feedback-input {
+        color: hsl(180, 1.2%, 80%);
         line-height: 20px;
         padding: 13px 13px 13px 52px;
         margin-bottom: 2px;
@@ -511,15 +513,7 @@ andere .fa.... is een aanpassing
         top: 5px;
         left: 10px;
     }
-    .telefoonnummer:before {
-        content: "\f095";
-        font-family: FontAwesome ;
-        color: hsl( 202, 33.3%, 84.1%);
-        font-size: 2em;
-        position: absolute;
-        top: 5px;
-        left: 10px;
-    }
+
     .bericht:before {
         content: "\f040";
         font-family: FontAwesome;
@@ -559,6 +553,9 @@ andere .fa.... is een aanpassing
     }
     /* GOOGLE MAP */
 
-    .gmap {
+    .gmap {}
 
+    .control-group {
+        text-align: left;
+        margin-left: 170px;
     }
