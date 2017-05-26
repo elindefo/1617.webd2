@@ -31,7 +31,6 @@ h1
 }
 
 
-
 /* Kleuren */
 .colours__colour--a {
     background-color: hsl(202, 33.3%, 84.1%);
@@ -140,9 +139,6 @@ select{
     left: 10px;}
     
 
-
-
-
 /* Hyperlinks */
 a,
 a:visited {
@@ -154,18 +150,6 @@ a:hover {
     text-decoration: underline;
 }
 /* ----------------------------------------------------------------------------------------------------------------------*/
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* Lay out voor iconen en effect wanneer je er op tikt*/

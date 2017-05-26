@@ -210,7 +210,8 @@ andere .fa.... is een aanpassing
             opacity: 0.5;
         }
 
-        .grijs {
+        .grijs,
+        .fa-angle-left {
             font-size: 2em;
             color: hsl(180, 1.2%, 84.1%);
             border-width: 0 0 .10em;
@@ -559,8 +560,6 @@ andere .fa.... is een aanpassing
             margin-left: 170px;
         }
 
-       
-
         .oo {
             font-size: 3em;
             color: hsl(13, 69%, 77.3%);
@@ -574,14 +573,13 @@ andere .fa.... is een aanpassing
             margin-bottom: 20px;
             margin-left: none;
         }
-
         /* SELECTIE */
         /* roze tekst bij selectie */
-         label:hover,
+
+        label:hover,
         .checkbox:hover {
             color: hsl(13, 69%, 77.3%);
         }
-
         /* andere vakjes weg en vervagen  */
 
         input[type=radio],
@@ -590,6 +588,7 @@ andere .fa.... is een aanpassing
             position: absolute;
         }
         /* vakjes */
+
         input[type=radio]+label:before,
         input[type=checkbox]+label:before {
             height: 12px;
@@ -600,14 +599,57 @@ andere .fa.... is een aanpassing
             vertical-align: baseline;
             border: 1px solid hsl(13, 69%, 77.3%);
         }
-        
         /* inkleuring vakjes */
+
         input[type=radio]:checked+label:before,
         input[type=checkbox]:checked+label:before {
             background: hsl(13, 69%, 77.3%);
         }
 
-       .namenmidden{
+        .namenmidden {
+            margin: auto 0;
+        }
 
-           margin: auto 0;
-       }
+        /* css vakjes op foto's */
+
+        .container {
+            position: relative;
+            width: 50%;
+        }
+
+         .container a {
+            position: relative;
+            width: 50%;
+            margin-left:350px;
+        }
+         
+        .image {
+            opacity: 1;
+            transition: .5s ease;
+            backface-visibility: hidden;
+        }
+
+        .middle {
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%)
+        }
+
+        .container:hover .image {
+            opacity: 0.5;
+        }
+
+        .container:hover .middle {
+            opacity: 10;
+        }
+
+        .text {
+            background-color: hsl( 202, 33.3%, 75%);
+            color: white;
+            font-size: 16px;
+            padding: 16px 32px;
+        }
