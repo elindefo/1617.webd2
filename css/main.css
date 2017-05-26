@@ -6,23 +6,8 @@
             display: block;
             border-color: white;
         }
-        /* Kleuren */
-
-        .colours__colour--a {
-            background-color: hsl(202, 33.3%, 84.1%);
-        }
-
-        .colours__colour--b {
-            background-color: hsl( 57, 78.3%, 72.9%);
-        }
-
-        .colours__colour--c {
-            background-color: hsl(180, 1.2%, 84.1%);
-        }
-
-        .colours__colour--d {
-            background-color: hsl(13, 69%, 77.3%);
-        }
+        
+        
         /* Style the links inside the navigation bar */
 
         .topnav a {
